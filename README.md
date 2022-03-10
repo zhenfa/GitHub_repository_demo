@@ -88,7 +88,9 @@ $ npm start
 * [Components / Page1 / List / index.jsx](#list)
 </br>
 </br>
+
 ### <a id=index>**index.js ( 主程式進入點 )**</a>
+
 </br>
  系統運行時將由系統入口( index.js )進行 store 狀態訂閱，並且註冊路由接著進入應用程式入口 ( APP -> index.jsx )。
  
