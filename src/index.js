@@ -16,7 +16,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class Main extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<App />}></Route>
           <Route exact={true} path="/users/:username/repos" element={<Page1 />}></Route>
